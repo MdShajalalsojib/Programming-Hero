@@ -9,6 +9,9 @@
     <style>
         table{
             border-collapse: collapse;
+            text-align: center;
+            background-color: aqua;
+            margin: auto;
         }
         td{
             border:1px solid black;
@@ -18,11 +21,13 @@
             padding: 5px 10px;
             border: 1px solid black;
         }
+        
     </style>
 </head>
 <body>
     <h1 class="h">HTML Table</h1>
     <table>
+        <caption>Employee Salary Data</caption>
         <thead>
             <tr>
                 <th>No</th>
@@ -62,6 +67,9 @@
 
         </tbody>
         <tfoot>
+            <tr>
+                <td colspan="4">Toal Employee: 4</td>
+            </tr>
 
         </tfoot>
     </table>
@@ -74,6 +82,7 @@
         <li>Table row: tr</li>
         <li>Table data or table cell: td</li>
         <li>Table head: th</li>
+        <li>Caption</li>
     </ul>
     
 </body>
