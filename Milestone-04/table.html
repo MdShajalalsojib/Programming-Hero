@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Table</title>
     <link rel="stylesheet" href="style/Table.css" >
+     
     <link rel ="shortcut icon" href="web logo/smile.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/nav.css">
     <style>
         table{
             border-collapse: collapse;
@@ -21,11 +23,31 @@
             padding: 5px 10px;
             border: 1px solid black;
         }
+         
         
     </style>
 </head>
 <body>
-    <h1 class="h">HTML Table</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="from.html">From</a></li>
+                <li>
+                    <a href="index.html">Index</a>
+                    <ul class="dove">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="from.html">From</a></li>
+                        <li><a href="index.html">Index</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul>
+                </li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+     <main>
+        <h1 class="h">HTML Table</h1>
     <table>
         <caption>Employee Salary Data</caption>
         <thead>
@@ -84,6 +106,10 @@
         <li>Table head: th</li>
         <li>Caption</li>
     </ul>
+    <button title="Plese click me">Click me </button>
+    <button disabled>Click me</button>
+    <input type="number" max="100" min="1" name="" id="">
+     </main>
     
 </body>
 </html>

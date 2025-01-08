@@ -1,0 +1,38 @@
+ 
+nav > ul{
+    display: flex;
+     
+
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding:5px;
+}
+nav  li{
+    list-style: none;
+    margin-right: 20px;
+    padding:10px;
+}
+nav li:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    text-align: center;
+}
+/* nested menu styles */
+
+
+ nav li .dove{
+    display:none;
+    position: absolute;
+    background-color: green;
+    padding-left:10px;
+ }
+ nav li:hover .dove{
+    display:block;
+
+ }
